@@ -7,16 +7,14 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "scripts": {
-    "coverage": "solidity-coverage"
+    "test": "truffle test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "openzeppelin-solidity": "^1.12.0",
-    "solidity-coverage": "^0.7.16"
+    "solidity-coverage": "^0.7.16",
+    "truffle": "^4.1.15"
   }
 }
